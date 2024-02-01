@@ -131,6 +131,7 @@ public class App extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+       ttt=null;
        jPanel1.setVisible(false);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
