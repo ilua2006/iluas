@@ -4,6 +4,7 @@
  */
 package ru.compactcode.tictactoe;
 
+import java.util.ArrayList;
 import ru.compactcode.tictactoe.view.SettingsForm;
 
 /**
@@ -142,6 +143,8 @@ public class App extends javax.swing.JFrame {
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         SettingsForm settingsForm = new SettingsForm(this,true);
         settingsForm.setVisible(true);
+        ArrayList<String> lst = settingsForm.mySettings();
+        System.out.println(lst);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
